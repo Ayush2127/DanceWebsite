@@ -1,0 +1,47 @@
+extends base.pug
+//- It means I am filling the template "base.pug"
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Ayush Dance Academy
+        div.small 💃💃 Eat Dance Sleep Repeat 💃💃
+
+    section#missionSection
+        h1 Our Mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+              div.card-img
+                  img(src="/static/logo4.jpg")
+              div.card-content 
+                  p This is the best Dance Academy on the Earth
+        div.card
+            h3 Dance the way you like
+            div.card-box
+              div.card-img
+                  img(src="/static/logo4.jpg")
+              div.card-content 
+                  p This is the best Dance Academy on the Earth
+        div.card
+            h3 Expert Teaching
+            div.card-box
+              div.card-img
+                  img(src="/static/logo4.jpg")
+              div.card-content 
+                  p This is the best Dance Academy on the Earth
+
+    section#sponsorSection
+        h1 Our Sponsors
+        div#sponsors 
+            img(src="/static/logo27.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo21.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo22.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo24.png", alt="Sponsor image", class="spImage")
+            //- alt text is shown when our image does not gets reload
