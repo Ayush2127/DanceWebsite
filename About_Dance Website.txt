@@ -1,0 +1,6 @@
+This is a Dance Website.
+
+1. Dance website is made using HTML, CSS, JavaScript, Node.JS, NPM, Pug.
+2. It contains beautiful navigation bar.
+3. It has contact form where customers can fill their details like name, mobile number etc.
+4. This website is made keeping in mind the professional design of any Dance Academy
